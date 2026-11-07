@@ -71,7 +71,7 @@ python run_comparison.py
 ```
 * **Expected Result:**
   * Sequential Execution: `~3.00 seconds` ($T_1 + T_2 + T_3$)
-  * Parallel Fan-Out Execution: `~1.01 seconds` ($\max(T_1, T_2, T_3)$)
+  * Parallel Fan-Out Execution: `~1.01 seconds` max(T_1, T_2, T_3)
   * **Verified Speedup: ~66% Latency Reduction!**
 
 ---
