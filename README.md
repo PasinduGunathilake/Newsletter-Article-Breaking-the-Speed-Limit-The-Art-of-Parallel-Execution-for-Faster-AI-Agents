@@ -20,8 +20,11 @@ The scripts are **100% self-contained**:
 
 ## Repository Structure
 ```text
-├── parallel_agent.py      # The standalone Fan-Out / Fan-In LangGraph Agent implementation
-├── run_comparison.py      # The Sequential vs. Parallel benchmark comparison script
+├── Article/
+│   ├── Breaking the Speed Limit The Art of Parallel Execution for Faster AI Agents.docx  # Word document version
+│   └── Breaking_the_Speed_Limit_The_Art_of_Parallel_Execution_for_Faster_AI_Agents.pdf   # Publication-ready PDF version
+├── parallel_agent.py      # Standalone Fan-Out / Fan-In LangGraph Agent implementation
+├── run_comparison.py      # Sequential vs. Parallel benchmark comparison script
 ├── requirements.txt       # Minimal dependency specification (langgraph)
 └── README.md              # Instructions for reviewers and developers
 ```
